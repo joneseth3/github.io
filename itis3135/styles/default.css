@@ -1,0 +1,22 @@
+body {
+font-family: tahoma;
+color: darkblue;
+background-color: tan;
+margin-left: 75px;
+margin-right: 75px;
+}
+header, footer {
+  text-align: center;
+}
+nav {
+text-align: center;
+}
+figure {
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+}
