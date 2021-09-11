@@ -32,7 +32,6 @@ th, td
 .dark-top
 {
 	background-color: black !important;
-	text-color: white;
 }
 
 figure tr:nth-child(odd)
