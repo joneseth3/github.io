@@ -1,6 +1,7 @@
 /*ITIS 3135 Activity 2 css file*/
 
 /*styling for the table goes here*/
+
 body
 {
 	width: 750px;
@@ -9,15 +10,11 @@ body
 
 table
 {
-	border-collapse: collapse;
-
-	margin: 20px;
+		border-collapse: collapse;
+		margin: 0;
 }
 
-thead
-{
-	background-color: green;
-}
+
 
 th, td
 {
@@ -32,7 +29,21 @@ th, td
 	text-align: right;
 }
 
-tbody tr:nth-child(odd) td
+.dark-top
 {
-	background-color: lightgreen;
+	background-color: black !important;
+	text-color: white;
+}
+
+figure tr:nth-child(odd)
+{
+background-color: #777;
+color: #fff;
+}
+
+
+
+
+footer {
+	text-align: center;
 }
