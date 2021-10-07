@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
       <meta charset="UTF-8">
-      <link href="styles/default.css" rel="stylesheet" type ="text/css" >
-      <title> Seth Jones, itis3135 - 051, Introduction </title>
+      <link href="styles/calculator_fcc.css" rel="stylesheet" type ="text/css" >
+      <script src="scripts/calculator_fcc.js" defer></script>
+      <title> Seth Jones, itis3135 - 051, Calulator </title>
   </head>
   <body>
 
@@ -26,31 +27,40 @@
       ||
       <a href="brand-sage-jellyfish.html"> Brand Sage JellyFish </a>
       ||
-      <a href="calulator_fcc.html"> Calculator (Activty 7) </a>
-      ||
       <a href = "activity6.html"> Name That Polygon</a>
     </nav>
 
     <main>
-        <figure>
-          <a href="images/GMSR2019Hill.jpg">
-            <img src = "images/GMSR2019Hill.jpg" width="1000" height="650" alt="Me racing a stage race back in 2019.">
-          </a>
-          <figcaption> Me racing a stage race back in 2019 </figcaption>
-        </figure>
-
-
-
-      <ul>
-        <li> Personal background: I lived in CA for a while and then i moved to Charlotte when I was young. </li>
-        <li>Proffesional: I am a current Proffesional Cyclist that races for a Serbian based team. </li>
-        <li> Academic backgroubnd: I am a history major and a CS major with a minor in data science. </li>
-        <li> Background in the subject matter of this course: Honetsly I havent done any web devoplment. </li>
-        <li>Primary Computer Platform: Windows 10. I do use linux on my raspiberry PI 4. </li>
-        <li> Courses I'm taking and why: I am taking this course and Intro to AI, Matrices and Linear Alegbra, Intro to Meatoraolgy. I am taking all of these courses to further my college degree. </li>
-        <li>Funny story or interesting item about yourself to remember you by: I was hit by a car while training back in 2020 reight before COVID hit.</li>
-        <li>I'd also like to share: I'm excited to learn Web devoplment. </li>
-      </ul>
+        <h1>Calculator</h1>
+        <h3> I mainly used this article here: "https://www.section.io/engineering-education/building-a-calculator-a-javascript-project-for-beginners/"
+            as I found the FCC one to be consfusing but I did consult that blog on FCC a few times.</h3>
+    
+        <div class="calculator-grid">
+            <div class="output">
+                <div data-previous-operand class="previous-operand"></div>
+                <div data-current-operand class="current-operand"></div>
+            </div>
+            
+            <button data-all-clear class="span-two">AC</button>
+            <button data-delete>DEL</button>
+            <button data-operation>÷</button>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-operation>*</button>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-operation>+</button>
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-operation>-</button>
+            <button data-number>.</button>
+            <button data-number>0</button>
+            <button data-equals class="span-two">=</button>
+    
+        </div>
     </main>
 
 
