@@ -1,20 +1,33 @@
-const number = window.prompt("Sage JellyFish wants you to enter a number 0-10 "); 
-validateEntry(number);
+window.onload = function() 
+{
+    var clickMeButton = document.getElementById("clickMe");
+    clickMeButton.onclick = start;
+}
 
+
+function start()
+{
+    var number = window.prompt("Sage JellyFish wants you to enter a number 0-10 "); 
+    validateEntry(number);
+}
 
 //Validates the Entry an also kinda drives the code 
-function validateEntry(number) {
-    if(number <= 10 && number >= 0){
+function validateEntry(number)
+ {
+    if(number <= 10 && number >= 0)
+    {
         getShape(number);
     } else {
-        while(number > 10 || number < 0){
+        while(number > 10 || number < 0)
+        {
             number = window.prompt("Looks like your number is not valid, make sure the number is between 0 - 10.")
         }        
         getShape(number);
     }
 }
 //Gets the shape based of of number and rteturns the value to the screen
-function getShape(number) {
+function getShape(number) 
+{
     if(number == 0)
     {
         alert("you have no sides so there for you are no polygon");
