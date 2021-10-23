@@ -2,11 +2,16 @@
 <html lang="en">
   <head>
       <meta charset="UTF-8">
-      <link href="styles/default.css" rel="stylesheet" type ="text/css" >
-      <script type="text/javascript" src="activity9.js"></script>
-      <title> Seth Jones, itis3135 - 051, Introduction </title>
+      <link href="styles/activity9.css" rel="stylesheet" type ="text/css" >
+      <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"></script>
+      <script src="scripts/activity9.js"></script>
+      <title> Seth Jones, itis3135 - 051, Jquery Image Slider </title>
   </head>
-  
+
+
   <body>
     <header>
       <h1> Seth Jones || ITIS3135 </h1>
@@ -15,7 +20,7 @@
     <nav>
       <a href="introduction.html">Introduction</a>
       ||
-      <a href="contact.html">Contact</a>
+      <a href="contract.html">Contract</a>
       ||
       <a href="tables.html"> HTML Tables</a>
       ||
@@ -38,10 +43,23 @@
     
     <main>
 
+      <h2>Image Slider</h2>
 
+      <div class=main>     
+        <div class=images> 
+          <img src=images/tree1.jpg alt=Tree1 class="active">
+          <img src=images/tree2.jpg alt=Tree2>
+          <img src=images/tree3.jpg alt=Tree3>
+          <img src=images/tree4.jpg alt=Tree4>
+          <img src=images/tree5.jpg alt=Tree5>
+          <img src=images/tree6.jpg alt=Tree6>
+        </div>
+      </div>
 
-
-
+        <div class=buttons>
+          <button class=btn-prev id=left-button> Left </button>
+          <button class=btn-next id=right-button> Right </button>
+        </div>
     </main>
 
     <footer>

@@ -28,3 +28,9 @@ a:hover {
   color: inherit;
   text-decoration: underline;
 }
+
+footer{
+  position: absolute;
+  bottom:0;
+  width: 95%;
+}
