@@ -4,6 +4,11 @@
     <head> 
         <meta charset="UTF-8">
         <link href="styles/contact.css" rel="stylesheet" type ="text/css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="jquery.js"></script>
+    
         <title> Mindset Bike Fit </title>
     </head>
     <body> 
@@ -22,13 +27,30 @@
         </header>
         <main> 
 
-            <div id="main-ptag"> 
-                <p> WAITING ON CLEINT FOR CONTENT. But this will include the contact of the shop that this webpage is, And this will most likely
-                    have a fourm which you can email aboutbike fits and things. I have the fourm ready but i just need the client to aprrove what they 
-                    wan to ask the customers for. 
-                </p>
-            </div>   
+            <div id="contact"> 
+                <form id="form">
+                    <div class="container">
+                        
+                        <p> Contact Us</p>
+
+                        <div class="name">
+                          <input type="text" placeholder="Your First Name" class="input">
+                          <input type="text" placeholder="Last Name" class="input">
+                        </div>
+                        
+                        <div class="email">
+                            <input type="email" placeholder="Your Email Address" class="input">
+                        </div>
+                        
+                        <div class="message">
+                          <textarea  class="area" placeholder="Leave a Message"></textarea>
+                        </div>
+                        
+                        <button class="btn">Send Message</button>
+                      </div>
                 
+                </form>
+            </div>   
         </main>
         <footer> 
 

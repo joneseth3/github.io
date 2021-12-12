@@ -1,0 +1,14 @@
+{"partInfo":[
+	{
+		"name":"Stem",
+		"bio":" This part is the component on a bicycle that connects the handlebars to the steerer tube of the bicycle fork. Changing this component can change your reach and your drop."
+	},
+	{
+		"name":"Crank",
+		"bio":" This part is the component on a bicycle that is connected to the pedal and is what you turn when you pedal. Changing the crank can change your seat height"
+	},
+	{
+		"name":"Handlebar",
+		"bio":" This part is the component on a bicycle that you push and pull to turn the bike. Changing this part can effect your reach and your drop."
+	}
+]}

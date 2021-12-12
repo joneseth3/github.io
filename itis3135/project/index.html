@@ -2,7 +2,19 @@
 <html lang="en">
     <head> 
         <meta charset="UTF-8">
-        <link href="styles/index.css" rel="stylesheet" type ="text/css" >
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+
+
+
+        <link rel="stylesheet" href="styles/index.css">
+        <script src="scripts/index.js"></script>
+
+
         <title> Mindset Bike Fit </title>
     </head>
 
@@ -25,78 +37,78 @@
         <main> 
 
             <div class='container'>  
-                <div id="fourm-left" >    
+                <div id="fourm-left">
+                    
+                    <h3>Please Fill Out Form for Your Results:</h3>
+                    <p><small>Please enter all numeric values in inches </small></p>
+
+
                     <fourm> 
 
                         <label for="fname">First Name: </label>
                         <input type="text" id="fname">
 
                         <br>
+                        <br>
 
                         <label for="lname"> Last Name:  </label>
                         <input type="text" id="lname">
 
+                        <br>
                         <br>
 
                         <label for=legSize> Length of legs: </label>
                         <input type="number" id="legSize"> 
 
                         <br>
-
-                        <input type="checkbox" name="unilateral" value="unilateral">
-                        <label id="unilateral"> My two legs have different lengths </label>
-
                         <br>
 
-                        <label for="torso-length"> Torse Length: </label>
-                        <input type="number" id="torso-length">
+
+                        <label for="torsoLength"> Torse Length: </label>
+                        <input type="number" id="torsoLength">
 
                         <br>
+                        <br>
 
-                        <button type="submit"> Submit </button>
+
+                        <label for="armLength"> Arm Length: </label>
+                        <input type="number" id="armLength">
+
+                        <br>
+                        <br>
+
+                        <button id="submit"> Submit </button>
                     </fourm>
                 </div>
 
 
                 <div id="middle-ptag">
-                    <p>
 
-                        CONTENT I AM WAITING ON CLEINT FOR 
-                
-                    </p>
+                    <h2 id="results-h2"> Results: </h2>
+
+
+                    <div id="results1"></div>
+                    <div id="results2"></div>
+                    <div id="results3"></div>
+                    <div id="results4"></div>
+
                 </div>
 
+
                 <div id="right-ptag">
-                    <p>
+                    <h4> These are parts you can buy to change certian sections of your position! </h4>
+                    
+                    <div id="right-ptagAjax"></div>
 
-                        CONTENT I AM WAITING ON CLEINT FOR APPROVAL
-
-                    </p>
                 </div>
 
                 <div id= "middle-bottom-ptag">
-                    <p>
-                        There is a lot of thtngs that can go into a persons bike fit, here through this web app we just trying to display a basic 
-                        understanding of the bike fitting experince and give some of our customers a chance to test their own ideas out through a 
-                        pain free experince. Through this web app, all the ridder needs to proved is some accurate measurements of their body proportions, 
-                        the size/type of their bike, and how they feel with their bike fit currently. Through this information we can decided what the ideal
-                        changes we can make for your fit to make your experince in riding a truly pain free an comfortable experince. All though our alorgithms 
-                        can make a solid guess at what your bike fit is, at the end of the day thats all this is, a guess. We still highly recomend that you come 
-                        in person to the shop and get a IRL bike fit for the most perfect fit you can get. 
-                        
-                    </p>
-                </div>    
+                   
+                    <h4> These are the methods and tools you will most likely need to change out the parts listed above. </h4>
 
+                    <div id = "middle-bottom-ptagAjax"></div>
 
-                <div id="right-bottom-ptag">
-                    <p>
-
-                        EXTERNAL LINKS: 
-                        I AM WAITING ON CLIENT TO PROVIDE
-
-
-                    </p>
-                </div>    
+                </div>      
 
             </div>  
         </main>

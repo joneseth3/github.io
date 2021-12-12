@@ -1,0 +1,17 @@
+{"tools":[
+	{
+		"name":"Stem",
+		"tool":" The tool needed usually to change your stem will most likely be a allen key wrench between the size of 3-5. Sometimes you will need a star/torx key wrench. ",
+        "method": "The method you will use is to twist the for bolts off of the stem near the handlebar, and then remove the stem from the stear tube. Reverse this methods to put the new part on!"
+    },
+	{
+		"name":"Crank",
+		"tool":"The tool needed ususally to change your crank will be a star nut for shimano components and a allenkey wrench between 3-5. ",
+        "method":"The method of which you use to change your cranks will be to use the start nut wrench to twist the crank cap off and then twist the allen bolts on the side off. Reverse this method to put back on! "
+	},
+	{
+		"name":"Handlebar",
+		"tool":"The tool of which you use to change your handlebars will be a allen or star/torx key wrench between the size of 3-5. ",
+        "method": "The method of which you will use to change your handle bar will just to simply take the handlebar off of the stem and then to remove all compents that are on the handle bar and then reverse these steps to put a handlebar back on. "
+	}
+]}

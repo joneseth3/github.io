@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body 
+{
+    background-size: cover;
+    height: auto;
+    font-family: 'Roboto';
+}
+
 #header-title 
 {
     font-size: xx-large;
@@ -33,7 +42,6 @@
 #main-ptag
 {  
     height: 600px;
-    border: 4px solid;
     padding: 50px 50px 50px 50px;    
     order: 0;  
     align-self: flex-start; 
