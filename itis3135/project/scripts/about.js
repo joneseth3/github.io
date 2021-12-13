@@ -1,3 +1,6 @@
+
+/* slider plugin*/
+
 $(document).ready(function(){
     $("#slider").bxSlider({
         randomStart: true,

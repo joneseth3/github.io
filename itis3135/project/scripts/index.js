@@ -1,3 +1,6 @@
+
+/* results and algortihms for the bike fit and results section */
+
 window.onload = function () {
     document.getElementById("submit").onclick = displayResults;
 
@@ -33,6 +36,9 @@ window.onload = function () {
 }
 
 
+
+/*first ajax call*/
+
 $(document).ready(function() {
     $.ajax({
         type: "get",
@@ -58,6 +64,8 @@ $(document).ready(function() {
     });
 });
 
+
+/*second ajax call */
 
 
 $(document).ready(function() {

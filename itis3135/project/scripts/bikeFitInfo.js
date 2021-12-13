@@ -1,3 +1,6 @@
+
+/*accodrian plugin */
+
 $(document).ready(function () {
     $("#tabs").accordion({
     event: "click",
